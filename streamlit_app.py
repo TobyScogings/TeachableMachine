@@ -4,9 +4,15 @@ import numpy as np
 #from keras.models import load_model
 
 
-if st.button("CLICK ME"):
-    st.balloons()
 
+if st.balloons("CLICK ME"):
+    st.balloons()
+    
+# Celebration balloons
+
+st.progress(10)  # Progress bar
+with st.spinner('Wait for it...'):
+    time.sleep(10)
 
 # # Import the class labels from labels.txt and assign to a list
 # classes = [' '.join(x.split(' ')[1:]).replace('\n','') for x in open('labels.txt', 'r').readlines()]
