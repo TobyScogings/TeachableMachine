@@ -4,10 +4,8 @@ import numpy as np
 #from keras.models import load_model
 
 
-st.balloons()  # Celebration balloons
-st.progress(10)  # Progress bar
-with st.spinner('Wait for it...'):
-    time.sleep(10)  # Simulating a process delay
+if st.button("CLICK ME"):
+    st.balloons()
 
 
 # # Import the class labels from labels.txt and assign to a list
