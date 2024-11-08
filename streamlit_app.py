@@ -6,7 +6,7 @@ import numpy as np
 
 
 
-if st.balloons("CLICK ME"):
+if st.button('CLICK ME'):
     st.balloons()
     
 # Celebration balloons
