@@ -4,7 +4,7 @@ import numpy as np
 #from keras.models import load_model
 
 
-st.balloons("PARTY TIME")  # Celebration balloons
+st.balloons()  # Celebration balloons
 st.progress(10)  # Progress bar
 with st.spinner('Wait for it...'):
     time.sleep(10)  # Simulating a process delay
