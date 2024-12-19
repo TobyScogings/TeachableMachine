@@ -1,5 +1,7 @@
 # TeachableMachine
 
+This is a project part of my educational development. It is not representative of me or my current skill level.
+
 This is a GitHub Repository for using Teachable Machine with StreamLit cloud. 
 
 You will need to add two files: 
